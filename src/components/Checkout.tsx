@@ -6,7 +6,6 @@ const Checkout = () => {
     return (
         <>
             <div className='bg-gray-100'>
-                <Header />
                 <Banner />
                 <br />
                 <div className="flex gap-8 justify-center mx-auto max-w-[1200px] ">
@@ -70,7 +69,6 @@ const Checkout = () => {
                         </div>
                     </div>
                 </div >
-                <Footer />
             </div >
         </>
     )
