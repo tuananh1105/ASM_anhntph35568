@@ -7,7 +7,7 @@ const Main = () => {
                 <div className="container max-w-screen-lg mx-auto mt-12 px-4 sm:px-6 lg:px-8">
                     <h2 className="text-xl sm:text-2xl font-medium mb-4">Tuyến đường phổ biến</h2>
                     <div className="carousel relative max-w-[980px] overflow-x-auto">
-                        <div className="flex  gap-4">
+                        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 ">
                             <Cart />
                             <Cart />
                             <Cart />

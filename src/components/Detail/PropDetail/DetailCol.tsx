@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const DetailCol = (props: { type: String }) => {
     return (
         <>
-            <div className="bg-white p-4 rounded-lg" style={{ width: "910px", height: "290px" }}>
+            <div className="bg-white p-4 rounded-lg mr-16 " style={{ width: "910px", height: "290px" }}>
                 <div className="flex gap-60">
                     <div className="relative flex ">
                         <img src="/sp.png.png" className="h-auto pt-8 px-3" alt="Your image" />

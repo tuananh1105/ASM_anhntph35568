@@ -7,7 +7,7 @@ const AsideDetail = () => {
             <div>
                 <FilterDetail />
                 <br />
-                <div className="flex h-screen flex-col justify-between border-e bg-white rounded-lg ">
+                <div className="flex  flex-col justify-between border-e bg-white rounded-lg w-64 ml-20">
                     <div className="px-4 py-6">
                         <span className="grid h-10 w-32 font-bold text-xl text-gray-900">
                             Lọc
@@ -19,7 +19,7 @@ const AsideDetail = () => {
                             <DetailLi type='Điểm Đón' />
                             <DetailLi type='Điểm Trả' />
                             <DetailLi type='Tiêu Chí Phổ Biến' />
-                            <DetailLi type='Vị Trí Ghế' />
+                            <DetailLi type='Vị Trí' />
                         </ul>
                     </div>
                     <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">

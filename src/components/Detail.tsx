@@ -9,10 +9,11 @@ const Detail = () => {
                 <br />
                 <BannerDetail />
                 <br />
-                <div className="flex  gap-8 justify-start mx-auto max-w-[1200px] ">
+                <div className="flex flex-col sm:flex-row sm:gap-0 sm:grid sm:grid-flow-col justify-between">
                     <AsideDetail />
                     <ColStyteDetail />
-                </div >
+                </div>
+
             </div>
         </>
     )
